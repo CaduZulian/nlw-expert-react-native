@@ -1,7 +1,8 @@
 import { Image, Text, TouchableOpacity, View } from "react-native";
 import { Feather } from "@expo/vector-icons";
-import { HeaderProps } from "./models";
 import colors from "tailwindcss/colors";
+
+import { HeaderProps } from "./models";
 
 export const Header = ({ title, cardQuantityItems = 0 }: HeaderProps) => {
   return (

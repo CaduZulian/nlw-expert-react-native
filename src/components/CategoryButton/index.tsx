@@ -1,6 +1,8 @@
 import { Pressable, Text } from "react-native";
-import { CategoryButtonProps } from "./models";
+
 import clsx from "clsx";
+
+import { CategoryButtonProps } from "./models";
 
 export const CategoryButton = ({
   title,
