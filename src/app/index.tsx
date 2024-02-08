@@ -16,14 +16,14 @@ export default function Home() {
 
   const cardQuantityItems = cartStore.products.reduce(
     (acc, product) => acc + product.quantity,
-    0
+    0,
   );
 
   const handleCategorySelect = (selectedCategory: string) => {
     setCategory(selectedCategory);
 
     const sectionIndex = CATEGORIES.findIndex(
-      (category) => category === selectedCategory
+      (category) => category === selectedCategory,
     );
 
     if (sectionListRef.current) {

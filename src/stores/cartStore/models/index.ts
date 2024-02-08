@@ -1,10 +1,12 @@
 import { ProductProps } from "@/utils";
 
-export interface ProductCardProps extends ProductProps {
+export interface ProductCartProps extends ProductProps {
   quantity: number;
 }
 
 export interface StateProps {
-  products: ProductCardProps[];
+  products: ProductCartProps[];
   add: (product: ProductProps) => void;
+  remove: (productId: string) => void;
+  clear: () => void;
 }

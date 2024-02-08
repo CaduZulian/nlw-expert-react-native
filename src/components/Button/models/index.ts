@@ -1,13 +1,13 @@
 import { TouchableOpacityProps } from "react-native";
 
 export interface ButtonProps extends TouchableOpacityProps {
-  children: React.ReactNode
+  children: React.ReactNode;
 }
 
 export interface ButtonTextProps {
-  children: React.ReactNode
+  children: React.ReactNode;
 }
 
 export interface ButtonIconProps {
-  children: React.ReactNode
+  children: React.ReactNode;
 }
